@@ -36,6 +36,6 @@ class ArticleController extends Controller
         if ($request->has('content')) {
             $article->content = $request->input('content');
         }
-        var_dump($article->save());
+        return ['status' => $article->save()];
     }
 }
