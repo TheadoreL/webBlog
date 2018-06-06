@@ -27,9 +27,15 @@ class ArticleController extends Controller
             $article = new Article();
         }
         $article->number = $number;
-        $article->title = $request->input('title');
-        $article->author = $request->input('author');
-        $article->content = $request->input('content');
+        if ($request->input('title')) {
+            $article->title = $request->input('title');
+        }
+        if ($request->input('author')) {
+            $article->author = $request->input('author');
+        }
+        if ($request->input('content')) {
+            $article->content = $request->input('content');
+        }
         var_dump($article->save());
     }
 }
