@@ -25,6 +25,7 @@ class ArticleController extends Controller
         }
         else {
             $article = new Article();
+            $article->status = 1;
         }
         $article->number = $number;
         if ($request->has('title')) {
