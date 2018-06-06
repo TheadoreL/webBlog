@@ -20,20 +20,20 @@ class ArticleController extends Controller
     }
 
     public function save($number, Request $request) {
-        if ($request->input('id')) {
+        if ($request->has('id')) {
             $article = Article::find($request->input('id'));
         }
         else {
             $article = new Article();
         }
         $article->number = $number;
-        if ($request->input('title')) {
+        if ($request->has('title')) {
             $article->title = $request->input('title');
         }
-        if ($request->input('author')) {
+        if ($request->has('author')) {
             $article->author = $request->input('author');
         }
-        if ($request->input('content')) {
+        if ($request->has('content')) {
             $article->content = $request->input('content');
         }
         var_dump($article->save());
