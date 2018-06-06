@@ -18,4 +18,18 @@ class ArticleController extends Controller
     	$data = Article::where('status', 1)->whereIn('number', [$number, '000'])->where('id', $id)->first();
     	return ['data' => $data];
     }
+
+    public function save($number, Request $request) {
+        if ($request->input('id')) {
+            $article = Article::find($request->input('id'));
+        }
+        else {
+            $article = new Article();
+        }
+        $article->number = $number;
+        $article->title = $request->input('title');
+        $article->author = $request->input('author');
+        $article->content = $request->input('content');
+        var_dump($article->save());
+    }
 }

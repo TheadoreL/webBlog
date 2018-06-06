@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/article/list/{number}/{page}', 'ArticleController@list');
 Route::get('/article/detail/{number}/{id}', 'ArticleController@detail');
+Route::post('/article/save/{number}', 'ArticleController@save');
