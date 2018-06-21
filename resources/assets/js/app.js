@@ -1,4 +1,4 @@
-
+/**jshint esverion: 6**/
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -12,13 +12,13 @@ import http from './data.js'
 Vue.use(VueRouter)
 Vue.prototype.$http = http
 
-window._ = require('lodash');
-window.Popper = require('popper.js').default;
+window._ = require('lodash')
+window.Popper = require('popper.js').default
 
 try {
-    window.$ = window.jQuery = require('jquery');
+    window.$ = window.jQuery = require('jquery')
 
-    require('bootstrap');
+    require('bootstrap')
 } catch (e) {}
 
 Vue.component('index', require('./components/index.vue'))
