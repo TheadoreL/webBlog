@@ -26,4 +26,6 @@ Route::group(['middleware' => ['auth:api']], function () {
     Route::get('/tags/list', 'TagsController@list');
     Route::post('/tags/save', 'TagsController@save');
     Route::post('/tags/delete', 'TagsController@delete');
+
+    Route::post('/file/upload', 'FileController@upload');
 });
