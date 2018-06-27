@@ -56,7 +56,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
  **返回示例**
@@ -123,7 +123,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
@@ -159,7 +159,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
@@ -249,7 +249,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
@@ -296,7 +296,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
@@ -329,7 +329,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
@@ -363,7 +363,7 @@
 **Header 参数：** 
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
@@ -398,7 +398,7 @@
 **Header 参数：**
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 
@@ -459,7 +459,7 @@
 **Header 参数：**
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：**
@@ -492,7 +492,7 @@
 **Header 参数：**
 
 |参数名|必选|类型|值|说明|
-|:----    |:---|:----- |-----   |
+|:----    |:---|:----- |-----   |-----   |
 |Authorization |是  |string |Bearer空格access_token|Bearer与access_token之间有个空格|
 
 **参数：** 
