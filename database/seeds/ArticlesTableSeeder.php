@@ -12,11 +12,13 @@ class ArticlesTableSeeder extends Seeder
     public function run()
     {
         DB::table('articles')->insert([
-        	'number' => '000',
+            'number' => '000',
+            'tags' => '',
             'title' => str_random(8),
-            'author' => str_random(6),
+            'author' => 0,
+            'cover' => str_random(16),
             'content' => str_random(80),
-            'status' => 1,
+            'status' => 'passed',
         ]);
     }
 }

@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/article/list/{number}/{page}', 'ArticleController@list');
-Route::get('/article/detail/{number}/{id}', 'ArticleController@detail');
-Route::post('/article/save/{number}', 'ArticleController@save');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
