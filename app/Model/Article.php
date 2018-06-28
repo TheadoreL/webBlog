@@ -16,6 +16,9 @@ class Article extends Model
 	public function getAuthorAttribute($value) {
     	if (empty($value)) {
     		return 'Default';
+		}
+		if ($value == 0) {
+    		return 'Default';
     	}
     	$user = User::where('id', $value)->first();
     	return $user->name;
