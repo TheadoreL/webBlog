@@ -1,7 +1,7 @@
 # 用户
 ## 注册
 
-登陆 [https://webblog.yolostudio.cn/register](https://webblog.yolostudio.cn/register) 注册账号，填写正确的邮箱及学号。
+登陆 [http://youdomain.com/register](http://youdomain.com/register) 注册账号，填写正确的邮箱及学号。
 
 ## 登陆
 
@@ -10,7 +10,7 @@
 - 用户登陆接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/oauth/token `
+- ` http://youdomain.com/oauth/token `
 
 **请求方式：**
 - POST
@@ -20,8 +20,8 @@
 |参数名|必选|类型|值|说明|
 |:----    |:---|:----- |-----   |-----   |
 |grant_type |是  |string |password | 原样填写 |
-|client_id |是  |string | 3  | 原样填写 |
-|client_secret     |否  |string | he8rtcU6ceFlmiyf6fCilHfFaNyQkNLzfQPAw8KA  | 原样填写 |
+|client_id |是  |string | x  | 原样填写 |
+|client_secret     |是  |string | xxx  | 原样填写 |
 |username |是  |string |xxx@xxx.xxx   | 用户邮箱 |
 |password |是  |string | xxx | 密码 |
 |scope |是  |string |     | 空字符串 |
@@ -48,7 +48,7 @@
 - 获取用户信息接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/user `
+- ` http://youdomain.com/api/user `
   
 **请求方式：**
 - GET
@@ -80,7 +80,7 @@
 - 新增文章接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/article/save `
+- ` http://youdomain.com/api/article/save `
   
 **请求方式：**
 - POST 
@@ -115,7 +115,7 @@
 - 修改文章接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/article/save `
+- ` http://youdomain.com/api/article/save `
   
 **请求方式：**
 - POST 
@@ -151,7 +151,7 @@
 - 文章列表接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/article/list/{page} `
+- ` http://youdomain.com/api/article/list/{page} `
   
 **请求方式：**
 - GET 
@@ -241,7 +241,7 @@
 - 文章详情接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/article/detail/{id} `
+- ` http://youdomain.com/api/article/detail/{id} `
   
 **请求方式：**
 - GET 
@@ -288,7 +288,7 @@
 - 删除文章接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/article/delete `
+- ` http://youdomain.com/api/article/delete `
   
 **请求方式：**
 - POST 
@@ -321,7 +321,7 @@
 - 新增标签接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/tags/save `
+- ` http://youdomain.com/api/tags/save `
   
 **请求方式：**
 - POST 
@@ -355,7 +355,7 @@
 - 修改标签接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/tags/save `
+- ` http://youdomain.com/api/tags/save `
   
 **请求方式：**
 - POST 
@@ -390,7 +390,7 @@
 - 标签列表接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/tags/list`
+- ` http://youdomain.com/api/tags/list`
 
 **请求方式：**
 - GET
@@ -451,7 +451,7 @@
 - 删除文章接口
 
 **请求URL：**
-- ` https://webblog.yolostudio.cn/api/tags/delete `
+- ` http://youdomain.com/api/tags/delete `
 
 **请求方式：**
 - POST
@@ -484,7 +484,7 @@
 - 新增标签接口
 
 **请求URL：** 
-- ` https://webblog.yolostudio.cn/api/file/upload `
+- ` http://youdomain.com/api/file/upload `
 
 **请求方式：**
 - POST
@@ -505,7 +505,7 @@
 
 ``` 
   {
-    "data": "https://webblog.yolostudio.cn/storage/9iafBY7AAkQigbZj3X2mZZynJXBFy0dykSobzpGT.jpeg",
+    "data": "http://youdomain.com/storage/9iafBY7AAkQigbZj3X2mZZynJXBFy0dykSobzpGT.jpeg",
     "status": "success"
 }
 ```
